@@ -13,7 +13,7 @@ public class AppController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-       resp.getWriter().println("v1:hello jenkins web");
+       resp.getWriter().println("v2:hello jenkins web2");
 
     }
 }
